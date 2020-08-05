@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">DetectElevator</string>
+    <string name="notiinfor">0</string>
+    <string name="Time">Time</string>
+    <string name="MovingTime">MovingTime</string>
+    <string name="Go">Go</string>
+    <string name="Des">Des</string>
+    <string name="btnStart">Start</string>
+    <string name="btnStop">Stop</string>
+    <string name="btnSave">Save</string>
+    <string name="btnTouch">Touch</string>
+    <string name="DetailedDes">DetailedDes</string>
+    <string name="RmsAcc">RMSAcc</string>
+    <string name="Pvalue">PValue</string>
+</resources>

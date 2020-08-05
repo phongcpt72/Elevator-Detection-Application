@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/startButton"
+        android:text="@string/btnStart" />
+
+    <TextView
+        android:id="@+id/notinfo"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/startButton"
+        android:layout_marginTop="20dp"
+        android:text="@string/notiinfor"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/Time"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/notinfo"
+        android:layout_marginTop="23dp"
+        android:text="@string/Time"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/MovingTime"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Time"
+        android:layout_marginTop="23dp"
+        android:text="@string/MovingTime"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/Go"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/MovingTime"
+        android:layout_marginTop="27dp"
+        android:text="@string/Go"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/Des"
+        android:layout_width="300dp"
+        android:layout_height="43dp"
+        android:layout_below="@+id/Go"
+        android:layout_marginTop="25dp"
+        android:text="@string/Des"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/DetailedDes"
+        android:layout_width="400dp"
+        android:layout_height="45dp"
+        android:layout_below="@+id/Go"
+        android:layout_marginTop="56dp"
+        android:text="@string/DetailedDes"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/rmsacc"
+        android:layout_width="400dp"
+        android:layout_height="45dp"
+        android:layout_below="@+id/DetailedDes"
+        android:layout_marginTop="-2dp"
+        android:text="@string/RmsAcc"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/pvalue"
+        android:layout_width="400dp"
+        android:layout_height="45dp"
+        android:layout_below="@+id/rmsacc"
+        android:layout_marginTop="10dp"
+        android:text="@string/Pvalue"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/stopButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pvalue"
+        android:layout_marginTop="23dp"
+        android:text="@string/btnStop" />
+
+    <Button
+        android:id="@+id/touchButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/stopButton"
+        android:layout_marginTop="25dp"
+        android:text="@string/btnTouch" />
+
+
+</RelativeLayout>
